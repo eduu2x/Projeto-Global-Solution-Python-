@@ -7,7 +7,7 @@ st.title("🤖 Assistente CitizenTech")
 st.caption("Sistema Integrado de Mobilidade Urbana")
 
 # Inicializa o cliente do Gemini (Substitua pela sua chave válida)
-CHAVE_API = "CHAVE_API = st.secrets["GEMINI_API_KEY"]
+CHAVE_API = st.secrets["GEMINI_API_KEY"]
 cliente = genai.Client(api_key=CHAVE_API)
 
 #Estruturas de Dados (Banco Local e Memória do Chat)
